@@ -7,8 +7,88 @@
   "env": {
     "CONFIG_FILE_URL": {
       "description": "Direct URL Of Config File ",
-      "required": "true",
+      "required": "false",
       "value": ""
+        },
+        "API_ID": {
+            "description": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "",
+            "required": true
+        },
+        "API_ID": {
+            "description": "",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "",
+            "required": true
+        },
+        "AUTH_GROUP_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": false
+        },
+        "RESTART_NOTIFY_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": false
+        },
+        "AUTO_SET_BOT_CMDS": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "RUNNING_TASK_LIMIT": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "FINISHED_PROGRESS_STR": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "UNFINISHED_PROGRESS_STR": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "UPDATE_PACKAGES": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": false
+        },
+        "UPSTREAM_REPO": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": false
+        },
+        "UPSTREAM_BRANCH": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": false
+        },
+        "TIMEZONE": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": false
+        },
+        "SAVE_TO_DATABASE": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "MONGODB_URI": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": false
+        },
+        "Use_Session_String": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "Session_String": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": false
     }
   }
 }
