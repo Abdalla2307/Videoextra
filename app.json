@@ -7,7 +7,7 @@
   "env": {
     "CONFIG_FILE_URL": {
       "description": "Direct URL Of Config File ",
-      "required": "true",
+      "required": "false",
       "value": ""
     }
   }
